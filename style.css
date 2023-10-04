@@ -76,7 +76,7 @@ a {
 
 .members-section {
     text-align: center;
-    padding: 100px 0px 180px 0px;
+    padding: 100px;
 }
 
 
@@ -124,13 +124,44 @@ a {
     font-size: 28px;
 }
 
+.call-to-action-section {
+    padding: 50px 100px;
+    background-color: #E5E7EB;
+}
+.call-to-action-text {
+    color: white;
+    background-color: #3882f6;
+    border-radius:  4px;
+    display: flex;
+    padding: 35px 75px;
+    justify-content: space-around;
+}
+.call-to-action-text h2{
+    line-height: 1;
+    font-size: 24px;
+}
 
-button {
+.call-to-action-text p{
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+
+.introleft button {
     background-color: #3882f6;
     color: white;
     padding: 5px 20px;
     border-radius: 8px;
     border: none;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.call-to-action-section button {
+    background-color: #3882f6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 8px;
+    border: 2px solid white;
     margin-left: 100px;
     margin-right: 100px;
 }
