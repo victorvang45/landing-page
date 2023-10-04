@@ -126,7 +126,6 @@ a {
 
 .call-to-action-section {
     padding: 50px 100px;
-    background-color: #E5E7EB;
 }
 .call-to-action-text {
     color: white;
@@ -164,4 +163,13 @@ a {
     border: 2px solid white;
     margin-left: 100px;
     margin-right: 100px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9FAF8;
+    align-items: flex-end;
+    padding: 20px;
+    font-size: 14px;
+    text-align: center;
 }
